@@ -31,5 +31,8 @@
 *.out
 *.app
 
+*.vcxproj
+*.vcxproj.filters
 .vs
+x64
 
