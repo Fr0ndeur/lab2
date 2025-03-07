@@ -18,9 +18,9 @@ struct Triple {
 };
 
 void printTriple(const std::string& label, const Triple& tr) {
-    std::cout << label << " мінімальні елементи: "
+    std::cout << label << " minimal elements: "
         << tr.m1 << ", " << tr.m2 << ", " << tr.m3
-        << " | сума = " << (tr.m1 + tr.m2 + tr.m3) << std::endl;
+        << " | sum = " << (tr.m1 + tr.m2 + tr.m3) << std::endl;
 }
 
 // 1. Sequential version
