@@ -162,8 +162,8 @@ Triple findThreeMinNonBlocking(const std::vector<int>& arr, int numThreads) {
 }
 
 int main() {
-    const int dataSize = 1000;
-    const int numThreads = 8;
+    const int dataSize = 200000000;
+    const int numThreads = 32;
 
     // Filling array with normal distribution in range [0, MAX_VAL)
     std::random_device rd;
